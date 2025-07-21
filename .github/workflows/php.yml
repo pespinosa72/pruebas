@@ -16,6 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: echo "Hello World!!!"
 
     # - name: Validate composer.json and composer.lock
     #  run: composer validate --strict
